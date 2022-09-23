@@ -75,7 +75,7 @@ const ContactForm = ({ fnaddContact }) => {
                 {generate_button('Phone', 'number', phone, setPhone)}<br></br>
                 {generate_button('Email', 'email', email, setEmail)}<br></br>
                 {generate_button('Photo URL', 'text', photo, setPhoto)}<br></br>
-                <Button color="success" type="submit" >Tambah To Do</Button>
+                <Button color="success" type="submit" >ADD NEW</Button>
             </Box>
 
             {/* <form style={{ margin: "0.5em 0em" }} onSubmit={onSubmitHandler}>
